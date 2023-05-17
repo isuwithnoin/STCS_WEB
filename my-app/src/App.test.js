@@ -1,3 +1,5 @@
+// React 앱 테스트를 위함
+
 import { render, screen } from '@testing-library/react';
 import App from './App';
 

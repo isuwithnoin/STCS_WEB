@@ -7,8 +7,8 @@ function Nav({ changeFrame }) {
       <ul>
         <li><button onClick={() => changeFrame('https://www.google.com/')}>Before</button></li>
         <li><button onClick={() => changeFrame('https://www.naver.com/')}>After</button></li>
-        <li><button onClick={() => changeFrame('https://www.daum.net/')}>Daum</button></li>
-        <li><button onClick={() => changeFrame('https://www.youtube.com/')}>Youtube</button></li>
+        <li><button onClick={() => changeFrame('https://www.daum.net/')}>Upload</button></li>
+        <li><button onClick={() => changeFrame('https://www.youtube.com/')}>Graph</button></li>
       </ul>
     </nav>
   );
