@@ -1,27 +1,18 @@
 import React, { useState } from 'react';
-import Header from './components/header';
-import Nav from './components/nav';
-import Footer from './components/footer';
+import Header from '../components/header';
+import Nav from '../components/nav';
+import Footer from '../components/footer';
 
-function about() {
-  const [frameSrc, setFrameSrc] = useState('https://www.google.com/');
-
-  const changeFrame = (url) => {
-    setFrameSrc(url);
-  }
-
+function About() {
   return (
     <div className="app">
       <Header />
       <main className="main">
-      <Nav changeFrame={changeFrame} />
-        <div className="frame-container">
-          <iframe title="main-frame" src={frameSrc}></iframe>
-        </div>
+        우리 서비스에 대한 소개
       </main>
     <Footer />
     </div>
   );
 }
 
-export default about;
+export default About;
