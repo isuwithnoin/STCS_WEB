@@ -1,0 +1,14 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+  
+  
+  .main {
+    height: 83.3333%;
+    display: flex;
+    background-color: #ffffff;
+  }
+  
