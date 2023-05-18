@@ -8,7 +8,8 @@ import Footer from '../components/footer';
 
 
 function Main() {
-  const [frameSrc, setFrameSrc] = useState('https://www.google.com/');
+  // @TODO Add support for ENV.
+  const [frameSrc, setFrameSrc] = useState('http://172.25.244.37:6080');
 
   const changeFrame = (url) => {
     setFrameSrc(url);
@@ -20,7 +21,7 @@ function Main() {
       <main className="main">
       <Nav changeFrame={changeFrame} />
         <div className="frame-container">
-          <iframe title="main-frame" src={frameSrc}></iframe>
+          <iframe title="main-frame" src={frameSrc} style={{ width: '1920px',height: '1080px', border: 'none' }}></iframe>
         </div>
       </main>
     <Footer />
