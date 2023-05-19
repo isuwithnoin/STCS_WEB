@@ -4,7 +4,11 @@
     height: 100vh;
     background-color: #ffffff;
   }
-  
+
+.left {
+    display: left;
+    margin-left: 10%;
+}
   
   .main {
     height: 83.3333%;
