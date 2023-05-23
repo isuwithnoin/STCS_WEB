@@ -1,14 +1,24 @@
 import React, { useState } from 'react';
 import Header from '../components/header';
-import Nav from '../components/nav';
 import Footer from '../components/footer';
+import './about.css'
+import image1 from '../img/images-2.png';
+import image2 from '../img/images.png';
 
 function About() {
   return (
     <div className="app">
       <Header />
       <main className="main">
-        우리 서비스에 대한 소개
+        <div className="about-header">
+          <p className="main-font">
+            Smart Traffic Light Control System
+          </p>
+          <p className="side-font"> Using ML with SUMO </p>
+        </div>
+        <div className="img-container">
+          <img className="img" src= {image1} alt='image1'/>
+        </div>  
       </main>
     <Footer />
     </div>

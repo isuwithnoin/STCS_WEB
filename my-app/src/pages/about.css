@@ -6,9 +6,58 @@
   }
   
   
-  .main {
-    height: 83.3333%;
-    display: flex;
-    background-color: #ffffff;
-  }
-  
+.main {
+  height: 83.3333%;
+  display: flex;
+  background-color: #ffffff;
+}
+
+
+.about-header {
+  height: 20%;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin-top: 1%;
+}
+
+.img-container {
+  top: 32%;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  object-fit: cover;
+
+}
+
+.img {
+  width: 100vh;
+  height: 50vh;
+
+}
+
+.main-font {
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.side-font {
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1%;
+}
