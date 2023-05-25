@@ -3,7 +3,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import './about.css'
 import image1 from '../img/images-2.png';
-import image2 from '../img/images.png';
+import image3 from '../img/images-3.png';
 
 function About() {
   return (
