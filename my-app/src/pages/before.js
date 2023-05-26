@@ -4,7 +4,7 @@ import './main.css'
 
 function Before() {
 
-    const frameSrc = 'https://www.daum.net'; 
+    const frameSrc = 'http://172.25.244.37:6081'; 
 
     return (
         <div>
